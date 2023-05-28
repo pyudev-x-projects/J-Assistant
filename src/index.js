@@ -10,7 +10,8 @@ const commands = [
     "exit",
     "help",
     "weather",
-    "newfolder"
+    "newfolder",
+    "calc"
 ]
 
 while (1=="1" /* we all love JS *totally* */) {
@@ -37,6 +38,11 @@ while (1=="1" /* we all love JS *totally* */) {
         case "newfolder":
             funcs.newfolder()
             break
+
+        case "calc":
+            funcs.calc()
+            break
+
 
         default:
             console.log("Invalid command.")
