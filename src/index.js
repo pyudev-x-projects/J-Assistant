@@ -14,6 +14,8 @@ const commands = [
     "calc"
 ]
 
+console.log("Welcome to JAssistant! Enter 'help' for more a list of commands.")
+
 while (1=="1" /* we all love JS *totally* */) {
     let cmd = prompt("Console command: ").toLowerCase()
 
