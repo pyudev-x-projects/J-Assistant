@@ -1,0 +1,16 @@
+{
+  "name": "jassisant",
+  "version": "1.0.0",
+  "description": "A javascript virtual assistant",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm start",
+    "start": "node src/index.js"
+  },
+  "author": "pyu",
+  "license": "MIT",
+  "dependencies": {
+    "prompt-sync": "^4.2.0",
+    "shelljs": "^0.8.5"
+  }
+}
