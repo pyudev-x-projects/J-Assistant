@@ -2,9 +2,6 @@ const shell = require("shelljs")
 const prompt = require("prompt-sync")()
 const funcs = require("./funcs")
 const { exit } = require("process")
-const https = require("https")
-
-const path = require("path")
 
 const commands = [
     "exit",
