@@ -8,7 +8,8 @@ module.exports = {
     HOMEPATH,
     weather,
     newfolder,
-    calc
+    calc,
+    curl
 }
 
 function weather() {
@@ -36,4 +37,10 @@ function calc() {
         console.log("Modulus: ", Number.parseInt(n1) % Number.parseInt(n2))
         console.log("Power: ", Math.pow(Number(n1), Number(n2)))
     }
+}
+
+function curl() {
+    let url = prompt("Lets cURL it! Enter a URL: ")
+
+    shell.exec(`curl ${url}`)
 }

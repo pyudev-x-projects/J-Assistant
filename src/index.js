@@ -8,7 +8,8 @@ const commands = [
     "help",
     "weather",
     "newfolder",
-    "calc"
+    "calc",
+    "curl"
 ]
 
 console.log("Welcome to JAssistant! Enter 'help' for more a list of commands.")
@@ -19,7 +20,6 @@ while (1=="1" /* we all love JS *totally* */) {
     switch (cmd) {
         case "exit":
             exit(0)
-
 
         case "help":
             console.log("Commands: ")
@@ -41,7 +41,10 @@ while (1=="1" /* we all love JS *totally* */) {
         case "calc":
             funcs.calc()
             break
-
+        
+        case "curl":
+            funcs.curl()
+            break
 
         default:
             console.log("Invalid command.")
